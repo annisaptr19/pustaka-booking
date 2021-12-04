@@ -49,7 +49,7 @@ class Autentifikasi extends CI_Controller
                         if ($user['role_id'] == 1) {
                             redirect('admin');
                         } else {
-                            if ($user['image'] == '') {
+                            if ($user['image'] == 'default.jpg') {
                                 $this->session->set_flashdata('pesan', '<div class="alert alert-info alert-message" role="alert">Silahkan Ubah Profile Anda untuk Ubah Photo Profil</div>');
                             }
                             redirect('user');
