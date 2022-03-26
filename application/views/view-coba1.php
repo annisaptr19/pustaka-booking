@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Latihan 1</title>
+    <title>coba 1</title>
 </head>
 
 <body>

@@ -25,30 +25,26 @@
                 </td>
             </tr>
             <tr>
-                <th>Nama MTK</th>
-                <th>:</th>
+                <td>Nama MTK</td>
+                <td>:</td>
                 <td>
                     <?= $nama; ?>
                 </td>
             </tr>
             <tr>
-                <th>SKS</th>
-                <th>:</th>
+                <td>SKS</td>
+                <td>:</td>
                 <td>
                     <?= $sks; ?>
                 </td>
             </tr>
             <tr>
-                <td colspan="3" align="center" >
-                    <a href="<?= base_url('matakuliah');
-                    ?>">Kembali</a>
+                <td colspan="3" align="center">
+                    <a href="<?= base_url('matakuliah'); ?>">Kembali</a>
                 </td>
             </tr>
         </table>
     </center>
 </body>
 
-</html> 
-
-
-
+</html>

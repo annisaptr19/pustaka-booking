@@ -28,7 +28,7 @@
                     </a>
                     <!-- Dropdown - User Information -->
                     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                        <a class="dropdown-item" href="<?= base_url('user'); ?>">]
+                        <a class="dropdown-item" href="<?= base_url('user'); ?>">
                             <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                             Profile Saya
                         </a>
@@ -38,7 +38,9 @@
                             Logout
                         </a>
                     </div>
-                 </li>
+                </li>
+
             </ul>
+
         </nav>
-        <!-- End of Topbar -->  
+        <!-- End of Topbar -->
